@@ -1,0 +1,49 @@
+
+
+    problem1 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust1, maximize=True, max_val=2)
+    comparator1 = RandomOptimizerComparator(problem1, init_state, "prob1")
+    comparator1.run_analysis()
+    
+    problem2 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust2, maximize=True, max_val=2)
+    comparator2 = RandomOptimizerComparator(problem2, init_state, "prob2")
+    comparator2.run_analysis()
+    
+    problem5 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust5, maximize=True, max_val=2)
+    comparator5 = RandomOptimizerComparator(problem5, init_state, "prob5")
+    comparator5.run_analysis()
+    
+    key = get_key()
+    print(key[0:50])
+
+    problem6 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust6, maximize=True, max_val=2)
+    comparator6 = RandomOptimizerComparator(problem6, init_state, "prob6")
+    comparator6.run_analysis()
+
+    # # #    MIMIC
+    one_max_problem = mlrose.DiscreteOpt(length=N, fitness_fn=mlrose.OneMax(), maximize=True, max_val=2)
+    one_max_comparator = RandomOptimizerComparator(one_max_problem, init_state, "one_max")
+    one_max_comparator.run_analysis()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    # #    MIMIC
+    flip_flop_problem = mlrose.DiscreteOpt(length=N, fitness_fn=mlrose.FlipFlop(), maximize=True, max_val=2)
+    flip_flop_comparator = RandomOptimizerComparator(flip_flop_problem, init_state, "flip_flop")
+    flip_flop_comparator.run_analysis()
+    
+    
+    
+    
+    
+    
+    
