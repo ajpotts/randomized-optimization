@@ -58,10 +58,10 @@ class RandomOptimizerComparator(object):
         self.exp_decay = exp_decay
         
         self.threads = []
-        
-        # Month abbreviation, day and year    
+   
+        today = date.today()
         date = today.strftime("%Y-%m-%d-%S")        
-        logging.basicConfig(filename=self.image_path +  "model_run_log"+date+".txt", level=logging.INFO)
+        logging.basicConfig(filename=self.image_path + "model_run_log" + date + ".txt", level=logging.INFO)
 
         logging.info('\n\nStarting....\n\n')        
         logging.info('init_state : ' + str(self.init_state))
