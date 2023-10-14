@@ -42,8 +42,70 @@
     flip_flop_comparator.run_analysis()
     
     
+        # weights = [10, 5, 2, 8, 15]
+    # values = [1, 2, 3, 4, 5]
+    # max_weight_pct = 0.6
+    # Knapsack_problem = mlrose.DiscreteOpt(length=N, fitness_fn=mlrose.Knapsack(weights, values, max_weight_pct), maximize=True, max_val=2)
+    # Knapsack_comparator = RandomOptimizerComparator(Knapsack_problem, init_state, "Knapsack Problem")
+    # Knapsack_comparator.run_analysis()
+    #
+    # queens_problem = mlrose.DiscreteOpt(length=8, fitness_fn=fitness_cust_queens_max, maximize=True, max_val=8) 
+    # queens_comparator = RandomOptimizerComparator(queens_problem, [1, 3, 2, 4, 3, 5, 4, 6], "8 Queens")
+    # queens_comparator.run_analysis()
     
+    # cts_peaks_problem = mlrose.DiscreteOpt(length=N, fitness_fn=mlrose.ContinuousPeaks(t_pct=0.15), maximize=True, max_val=2)
+    # cts_peaks_comparator = RandomOptimizerComparator(cts_peaks_problem, init_state, "Continuous Peaks")
+    # cts_peaks_comparator.run_analysis()
+    #
+    # problem1 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust1, maximize=True, max_val=2)
+    # comparator1 = RandomOptimizerComparator(problem1, init_state, "Problem1")
+    # comparator1.run_analysis()
     
+       #
+    # problem10 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust10, maximize=True, max_val=2)
+    # comparator10 = RandomOptimizerComparator(problem10, init_state, "Two Peaks")
+    # comparator10.run_analysis()
+#
+
+    # # Create list of city coordinates
+    # coords_list = [(1, 1), (4, 2), (5, 2), (6, 4), (4, 4), (3, 6), (1, 5), (2, 3)]
+    #
+    # # Initialize fitness function object using coords_list
+    # fitness_coords = mlrose.TravellingSales(coords = coords_list)
+    #
+    # # Create list of distances between pairs of cities
+    # dist_list = [(0, 1, 3.1623), (0, 2, 4.1231), (0, 3, 5.8310), (0, 4, 4.2426), \
+    #          (0, 5, 5.3852), (0, 6, 4.0000), (0, 7, 2.2361), (1, 2, 1.0000), \
+    #          (1, 3, 2.8284), (1, 4, 2.0000), (1, 5, 4.1231), (1, 6, 4.2426), \
+    #          (1, 7, 2.2361), (2, 3, 2.2361), (2, 4, 2.2361), (2, 5, 4.4721), \
+    #          (2, 6, 5.0000), (2, 7, 3.1623), (3, 4, 2.0000), (3, 5, 3.6056), \
+    #          (3, 6, 5.0990), (3, 7, 4.1231), (4, 5, 2.2361), (4, 6, 3.1623), \
+    #          (4, 7, 2.2361), (5, 6, 2.2361), (5, 7, 3.1623), (6, 7, 2.2361)]
+    #
+    # # Initialize fitness function object using dist_list
+    # fitness_dists = mlrose.TravellingSales(distances = dist_list)
+    #
+    #
+    # traveling_sales_problem = mlrose.TSPOpt(length = 8, fitness_fn = fitness_dists, maximize=False)
+    # traveling_sales_comparator = RandomOptimizerComparator(traveling_sales_problem, [0,1,2,3,4,5,6,7], "Traveling Salesperson")
+    # traveling_sales_comparator.run_analysis()
     
+        #
+    # problem4 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust4, maximize=True, max_val=2)
+    # comparator4 = RandomOptimizerComparator(problem4, init_state, "Average Run Length")
+    # comparator4.run_analysis()
+    #
+    # problem7 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust7, maximize=True, max_val=2)
+    # comparator7 = RandomOptimizerComparator(problem7, init_state, "Random Weights")
+    # comparator7.run_analysis()
+    #
+    # problem8 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust8, maximize=True, max_val=2)
+    # comparator8 = RandomOptimizerComparator(problem8, init_state, "Unique Integers")
+    # comparator8.run_analysis()
+    #
     
+      # problem2 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust2, maximize=True, max_val=2)
+    # comparator2 = RandomOptimizerComparator(problem2, init_state, "Palindromes")
+    # comparator2.run_analysis()
+    #
     

@@ -5,21 +5,17 @@ Created on Oct 10, 2023
 '''
 
 import logging
-import os
 from pickle import NONE
-import sched
 import six
-import sys
-import sys
 import threading
 import time
+import sys
 
 from mlrose import fitness
 import mlrose
 
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
-import numpy as np
 
 sys.modules['sklearn.externals.six'] = six
 
@@ -84,6 +80,7 @@ class RandomOptimizerComparator(object):
             thread.start()
         while self.threads:
             self.threads.pop().join() 
+        time.sleep(5)
         
     def run_analysis(self):
         
