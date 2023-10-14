@@ -170,13 +170,94 @@ class RandomOptimizerComparator(object):
         plt.title("Running Time For Each Algorithm (Seconds)")
         plt.savefig(runtime_filename)
         
+        self.get_stats(best_hill_climbing, best_annealing, best_genetic, best_mimic)
+        
     def clear_plots(self):
         plt.figure().clear()
         plt.close()
         plt.cla()
         plt.clf()
+        
+    def get_stats(self, best_hill_climbing, best_simulated_annealing, best_genetic, best_mimic):
+        
+        N = 10
+        
+        hc_results = []
+        self.set_hill_climbing_threads_fixed_param(N, hc_results)
+        
+        print(best_simulated_annealing)
+        print(len(best_simulated_annealing))
+        
+        sa_results = []
+        self.set_simulated_annealing_threads_fixed_params(N, sa_results, str(best_simulated_annealing[4][0]), best_simulated_annealing[4][1])
+        
+        ga_results = []
+        self.set_genetic_threads_fixed_param(ga_results, best_genetic[4][0], best_genetic[4][1])
+        
+        mimic_results = []
+        self.set_mimic_threads_fixed_param(N, mimic_results, best_mimic[4][0])
+        self.execute_threads()       
+        
+        logging.info('Num Runs : ' + str(N))
+        logging.info('Randomized Hill Climbing Avg Fitness : ' + str(self.get_avg_fitness(hc_results)))
+        logging.info('Randomized Hill Climbing Avg Run Time : ' + str(self.get_avg_run_time(hc_results)))  
+            
+        logging.info('Simulated Annealing Avg Fitness : ' + str(self.get_avg_fitness(sa_results)))
+        logging.info('Simulated Annealing Avg Run Time : ' + str(self.get_avg_run_time(sa_results)))  
 
-    def get_simulated_annealing_run(self, schedule_name, decay, results):
+        logging.info('Genetic Algorithm Avg Fitness : ' + str(self.get_avg_fitness(ga_results)))
+        logging.info('Genetic Algorithm Avg Run Time : ' + str(self.get_avg_run_time(ga_results)))  
+
+        logging.info('MIMIC Avg Fitness : ' + str(self.get_avg_fitness(mimic_results)))
+        logging.info('MIMIC Avg Run Time : ' + str(self.get_avg_run_time(mimic_results)))  
+        
+        blue_patch = mpatches.Patch(color='blue', label="Simulated Annealing")
+        green_patch = mpatches.Patch(color='green', label="Randomized Hill Climbing")
+        red_patch = mpatches.Patch(color='red', label="MIMIC")
+        purple_patch = mpatches.Patch(color='purple', label="Genetic Algorithm")
+        self.clear_plots()                                   
+        ax = plt.gca()
+        
+        self.plot_curves(sa_results, 'blue')
+        self.plot_curves(hc_results, 'green')
+        self.plot_curves(ga_results, 'purple')
+        self.plot_curves(mimic_results, 'red')
+        
+        plt.legend(handles=[blue_patch, green_patch, red_patch, purple_patch], loc="lower right") 
+        plt.xlabel("Iterations")
+        plt.ylabel("Fitness Score")
+        plt.title("Fitness by Number of Iterations for Each Algorithm")
+        N_learning_curve_filename = self.image_path + self.name + "_performance_multiple.png"
+        plt.savefig(N_learning_curve_filename) 
+        if(self.verbose):
+            plt.show()
+        
+    def plot_curves(self, results, color):
+        
+        for i in range(len(results)):
+            if(len(results[i]) > 3):
+                curve = results[i][3]
+                plt.plot(curve, color=color)
+                
+    def get_avg_fitness(self, results):
+        avg = 0
+        if(len(results) > 0):
+            sum = 0
+            for r in results:
+                sum += r[0]
+            avg = sum / len(results)
+        return avg
+    
+    def get_avg_run_time(self, results):
+        avg = 0
+        if(len(results) > 0):
+            sum = 0
+            for r in results:
+                sum += r[1]
+            avg = sum / len(results)
+        return avg
+
+    def get_simulated_annealing_run(self, schedule_name, decay, results, random_state=1):
         
         if(schedule_name == "exponential"):
             schedule = mlrose.ExpDecay(exp_const=decay)
@@ -197,7 +278,7 @@ class RandomOptimizerComparator(object):
                                                         max_iters=self.max_iterations,
                                                         curve=self.curve,
                                                         init_state=self.init_state,
-                                                        random_state=self.random_state)
+                                                        random_state=random_state)
         end_time = time.time() - start_time
         
         msg = "Finished Simulated Annealing: " + schedule_name + " " + str(decay) + " in " + str(end_time) + "\n"
@@ -207,9 +288,9 @@ class RandomOptimizerComparator(object):
         result = (fitness, end_time, state, curve, (schedule_name, decay))
         results.append(result)
     
-    def set_simulated_annealing_threads_fixed_params(self, N, results, schedule_name, decay):
+    def set_simulated_annealing_threads_fixed_params(self, N, results, schedule_name, decay, random_state=1):
         for i in range(N):
-            thread = threading.Thread(target=self.get_simulated_annealing_run, args=(schedule_name, decay, results))
+            thread = threading.Thread(target=self.get_simulated_annealing_run, args=(schedule_name, decay, results, i))
             self.threads.append(thread)
 
     def set_simulated_annealing_threads(self, results):
@@ -243,7 +324,7 @@ class RandomOptimizerComparator(object):
   
         return self.get_best_result(results)
     
-    def get_hill_climbing_run(self, restarts, results):
+    def get_hill_climbing_run(self, restarts, results, random_state=1):
         
     # max_attempts (int, default: 10) – Maximum number of attempts to find a better neighbor at each step.
     # max_iters (int, default: np.inf) – Maximum number of iterations of the algorithm.
@@ -261,7 +342,7 @@ class RandomOptimizerComparator(object):
                                                                    restarts=restarts,
                                                                    init_state=self.init_state,
                                                                    curve=self.curve,
-                                                                   random_state=self.random_state)
+                                                                   random_state=random_state)
         end_time = time.time() - start_time
 
         msg = "Finished Hill Climbing: " + str(restarts) + " in " + str(end_time) + "\n"
@@ -271,9 +352,9 @@ class RandomOptimizerComparator(object):
         result = (fitness, end_time, state, curve, restarts)
         results.append(result)
 
-    def set_hill_climbing_threads_fixed_param(self, N, results):
+    def set_hill_climbing_threads_fixed_param(self, N, results, random_state=1):
         for i in range(N):
-            thread = threading.Thread(target=self.get_hill_climbing_run, args=(self.restarts, results))
+            thread = threading.Thread(target=self.get_hill_climbing_run, args=(self.restarts, results, i))
             self.threads.append(thread)
 
     def set_hill_climbing_threads(self, results):
@@ -296,7 +377,7 @@ class RandomOptimizerComparator(object):
         
         return self.get_best_result(results)
 
-    def get_genetic_run(self, pop, prob, results):
+    def get_genetic_run(self, pop, prob, results, random_state=1):
         
         # pop_size (int, default: 200) – Size of population to be used in genetic algorithm.
         # mutation_prob (float, default: 0.1) – Probability of a mutation at each element of the state vector during reproduction, expressed as a value between 0 and 1.
@@ -312,7 +393,7 @@ class RandomOptimizerComparator(object):
                                                         max_attempts=self.max_attempts ,
                                                         max_iters=self.max_iterations,
                                                          curve=self.curve,
-                                                         random_state=self.random_state)
+                                                         random_state=random_state)
             end_time = time.time() - start_time
     
             msg = "Finished Genetic Alg: " + str(pop) + " " + str(prob) + " in " + str(end_time) + "\n"
@@ -326,9 +407,9 @@ class RandomOptimizerComparator(object):
             logging.info(msg)
             print(msg)            
     
-    def set_genetic_threads_fixed_param(self, results, population_size, mutation_prob):
+    def set_genetic_threads_fixed_param(self, results, population_size, mutation_prob, random_state=1):
         for i in range(N):
-            thread = threading.Thread(target=self.get_genetic_run, args=(population_size, mutation_prob, results))
+            thread = threading.Thread(target=self.get_genetic_run, args=(population_size, mutation_prob, results, i))
             self.threads.append(thread)
             
     def set_genetic_threads(self, results, population_sizes, mutation_probs):
@@ -353,10 +434,8 @@ class RandomOptimizerComparator(object):
         # curve = [ele for ele in curve for i in range(200)]
         
         return self.get_best_result(results)
-    
-    
         
-    def get_mimic_run(self, pop, results):
+    def get_mimic_run(self, pop, results, random_state=1):
         
     # pop_size (int, default: 200) – Size of population to be used in algorithm.
     # keep_pct (float, default: 0.2) – Proportion of samples to keep at each iteration of the algorithm, expressed as a value between 0 and 1.
@@ -373,7 +452,7 @@ class RandomOptimizerComparator(object):
                                                    max_attempts=self.max_attempts ,
                                                    max_iters=self.max_iterations,
                                                    curve=self.curve,
-                                                   random_state=self.random_state)
+                                                   random_state=random_state)
             end_time = time.time() - start_time
             
             msg = "Finished MIMIC: " + str(pop) + " in " + str(end_time) + "\n"
@@ -387,9 +466,9 @@ class RandomOptimizerComparator(object):
             logging.info(msg)
             print(msg)      
 
-    def set_mimic_threads_fixed_param(self,N, results, population_size):
+    def set_mimic_threads_fixed_param(self, N, results, population_size, random_state=1):
         for i in range(N):
-            thread = threading.Thread(target=self.get_mimic_run, args=(population_size, results))
+            thread = threading.Thread(target=self.get_mimic_run, args=(population_size, results, i))
             self.threads.append(thread)            
         
     def set_mimic_threads(self, results, population_sizes):
