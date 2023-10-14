@@ -1,0 +1,241 @@
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 3
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 3
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.14573884010314941
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.12249207496643066
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.025452136993408203
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.0580594539642334
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.09649896621704102
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.024806499481201172
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.12401700019836426
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.27265048027038574
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.2945704460144043
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.030160188674926758
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09493732452392578
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.20531749725341797
+
+INFO:root:Could not compute Genetic Alg: 200 0.01
+
+INFO:root:Could not compute Genetic Alg: 200 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Finished Genetic Alg: 1000 0.1 in 80.02840638160706
+
+INFO:root:Finished Genetic Alg: 1000 0.01 in 85.16089844703674
+
+INFO:root:Finished Genetic Alg: 1000 0.0001 in 92.2696328163147
+
+INFO:root:Finished Genetic Alg: 1000 0.001 in 104.84563064575195
+
+INFO:root:Finished Genetic Alg: 1000 0.05 in 105.2425422668457
+
+INFO:root:Finished MIMIC: 300 in 1632.2091507911682
+
+INFO:root:Finished MIMIC: 500 in 1643.5048971176147
+
+INFO:root:Finished MIMIC: 200 in 1643.5767126083374
+
+INFO:root:Finished MIMIC: 400 in 1645.4422540664673
+
+INFO:root:Finished MIMIC: 1000 in 1650.972796678543
+
+INFO:root:Best Hill Climbing : (70.0, 0.14573884010314941, array([0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0]), array([32., 32., 32., ..., 66., 66., 66.]), 10)
+INFO:root:Run Time Hill Climbing : 0.14573884010314941
+INFO:root:Best Simulated Annealing : (85.0, 0.20531749725341797, array([0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0,
+       1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1]), array([32., 32., 32., ..., 85., 85., 85.]), ('arithmetic', 0.0001))
+INFO:root:Run Time Simulated Annealing : 0.12263291532343085
+INFO:root:Best MIMIC : (82.0, 1632.2091507911682, array([0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0,
+       1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1,
+       1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0,
+       1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1,
+       0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]), array([55., 55., 55., 61., 67., 77., 81., 82., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       82.]), 300)
+INFO:root:Run Time MIMIC : 1643.141162252426
+INFO:root:Best Genetic Algorithm : (70.0, 80.02840638160706, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+       1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1,
+       0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0,
+       0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1]), array([53., 57., 59., 60., 60., 60., 60., 62., 62., 62., 62., 62., 62.,
+       62., 62., 62., 62., 62., 62., 62., 62., 62., 62., 63., 63., 63.,
+       63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63.,
+       63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63.,
+       63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 63., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70.]), (1000, 0.1))
+INFO:root:Run Time Genetic Algorithm : 93.50942211151123
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 3
+INFO:root:self.name : Magic Triplets
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 3
+INFO:root:Problem : Magic Triplets
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 10.733454704284668
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 10.772509098052979
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 10.778685808181763
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.1
+
+INFO:root:Could not compute Genetic Alg: 1000 0.01
+
+INFO:root:Could not compute Genetic Alg: 1000 0.05
+
+INFO:root:Finished Hill Climbing: 10 in 31.005964279174805
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 32.57642602920532
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 32.68392491340637
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 32.82712173461914
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 32.82932209968567
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 32.95161056518555
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 32.956387996673584
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 33.21069073677063
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 33.21661329269409
+
+INFO:root:Finished Genetic Alg: 200 0.01 in 43.14180541038513
+
+INFO:root:Finished Genetic Alg: 200 0.05 in 47.348084688186646
+
+INFO:root:Could not compute MIMIC: 400index 200 is out of bounds for axis 0 with size 200
+

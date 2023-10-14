@@ -53,7 +53,7 @@ def main(argv=None):
     
     path = pathlib.Path().resolve()
     project_dir = str(Path(os.path.dirname(os.path.abspath(__file__))).parent.absolute())
-    analysis_dir = str(path) + '/analysis'
+    analysis_dir = str(path) + '/analysis/'
   
     problem3 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust3, maximize=True, max_val=2)
     comparator3 = RandomOptimizerComparator(problem3, init_state, "Modular Sums", image_path=analysis_dir)

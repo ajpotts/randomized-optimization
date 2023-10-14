@@ -10,6 +10,7 @@ import six
 import threading
 import time
 import sys
+from datetime import date
 
 from mlrose import fitness
 import mlrose
@@ -58,7 +59,9 @@ class RandomOptimizerComparator(object):
         
         self.threads = []
         
-        logging.basicConfig(filename=self.image_path + self.name + "_log.txt", level=logging.INFO)
+        # Month abbreviation, day and year    
+        date = today.strftime("%Y-%m-%d-%S")        
+        logging.basicConfig(filename=self.image_path +  "model_run_log"+date+".txt", level=logging.INFO)
 
         logging.info('\n\nStarting....\n\n')        
         logging.info('init_state : ' + str(self.init_state))
