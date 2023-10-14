@@ -35,7 +35,7 @@ class RandomOptimizerComparator(object):
                  arith_decay=[0.01, 0.001, 0.0001],
                  exp_decay=[0.001, 0.005, 0.05],
                  restarts=10,
-                 random_state=3
+                 random_state=1
                  ):
         '''
         Constructor
@@ -61,7 +61,7 @@ class RandomOptimizerComparator(object):
    
         today = date.today()
         date_string = today.strftime("%Y-%m-%d-%S")    
-        logging.basicConfig(filename=self.image_path + "model_run_log" + date_string + ".txt", level=logging.INFO)
+        logging.basicConfig(filename=self.image_path + "model_run_log_" + date_string + ".txt", level=logging.INFO)
 
         logging.info('\n\nStarting....\n\n')        
         logging.info('init_state : ' + str(self.init_state))
