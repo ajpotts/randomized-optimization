@@ -206,6 +206,11 @@ class RandomOptimizerComparator(object):
         
         result = (fitness, end_time, state, curve, (schedule_name, decay))
         results.append(result)
+    
+    def set_simulated_annealing_threads_fixed_params(self, N, results, schedule_name, decay):
+        for i in range(N):
+            thread = threading.Thread(target=self.get_simulated_annealing_run, args=(schedule_name, decay, results))
+            self.threads.append(thread)
 
     def set_simulated_annealing_threads(self, results):
         
@@ -266,6 +271,11 @@ class RandomOptimizerComparator(object):
         result = (fitness, end_time, state, curve, restarts)
         results.append(result)
 
+    def set_hill_climbing_threads_fixed_param(self, N, results):
+        for i in range(N):
+            thread = threading.Thread(target=self.get_hill_climbing_run, args=(self.restarts, results))
+            self.threads.append(thread)
+
     def set_hill_climbing_threads(self, results):
 
         thread = threading.Thread(target=self.get_hill_climbing_run, args=(self.restarts, results))
@@ -316,6 +326,11 @@ class RandomOptimizerComparator(object):
             logging.info(msg)
             print(msg)            
     
+    def set_genetic_threads_fixed_param(self, results, population_size, mutation_prob):
+        for i in range(N):
+            thread = threading.Thread(target=self.get_genetic_run, args=(population_size, mutation_prob, results))
+            self.threads.append(thread)
+            
     def set_genetic_threads(self, results, population_sizes, mutation_probs):
         for pop in population_sizes:
             for prob in mutation_probs:
@@ -338,6 +353,8 @@ class RandomOptimizerComparator(object):
         # curve = [ele for ele in curve for i in range(200)]
         
         return self.get_best_result(results)
+    
+    
         
     def get_mimic_run(self, pop, results):
         
@@ -369,6 +386,11 @@ class RandomOptimizerComparator(object):
             msg = "Could not compute MIMIC: " + str(pop) + str(e) + "\n"
             logging.info(msg)
             print(msg)      
+
+    def set_mimic_threads_fixed_param(self,N, results, population_size):
+        for i in range(N):
+            thread = threading.Thread(target=self.get_mimic_run, args=(population_size, results))
+            self.threads.append(thread)            
         
     def set_mimic_threads(self, results, population_sizes):
         for pop in population_sizes:
