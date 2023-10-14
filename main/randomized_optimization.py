@@ -20,6 +20,7 @@ It defines classes_and_methods
 import sys
 import six
 import math
+import time
 
 import base64
 from cryptography.hazmat.backends import default_backend
