@@ -38,7 +38,7 @@ To install requirments without python environment (use at your own risk):
 Analysis files will be written to two directories.  
 
 The Presence Dataset results will be written here:
-> out
+> analysis
 
 
 ## Citations

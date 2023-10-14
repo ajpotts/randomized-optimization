@@ -17,10 +17,13 @@ It defines classes_and_methods
 @deffield    updated: Updated
 '''
 
+import os
 import sys
 import six
 import math
 import time
+import pathlib
+from pathlib import Path
 
 import base64
 from cryptography.hazmat.backends import default_backend
@@ -47,19 +50,23 @@ def main(argv=None):
     np.random.seed(0)
     N = 100
     init_state = np.random.randint(2, size=N)  # np.zeros(N)
+    
+    path = pathlib.Path().resolve()
+    project_dir = str(Path(os.path.dirname(os.path.abspath(__file__))).parent.absolute())
+    analysis_dir = str(path) + '/analysis'
   
     problem3 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust3, maximize=True, max_val=2)
-    comparator3 = RandomOptimizerComparator(problem3, init_state, "Modular Sums")
+    comparator3 = RandomOptimizerComparator(problem3, init_state, "Modular Sums", image_path=analysis_dir)
     comparator3.run_analysis()
     time.sleep(5)
     
     problem9 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust9, maximize=True, max_val=2)
-    comparator9 = RandomOptimizerComparator(problem9, init_state, "Magic Triplets")
+    comparator9 = RandomOptimizerComparator(problem9, init_state, "Magic Triplets", image_path=analysis_dir)
     comparator9.run_analysis()
     time.sleep(5)
 
     four_peaks_problem = mlrose.DiscreteOpt(length=N, fitness_fn=mlrose.FourPeaks(), maximize=True, max_val=2)
-    four_peaks_comparator = RandomOptimizerComparator(four_peaks_problem, init_state, "Four Peaks")
+    four_peaks_comparator = RandomOptimizerComparator(four_peaks_problem, init_state, "Four Peaks", image_path=analysis_dir)
     four_peaks_comparator.run_analysis()
 
 

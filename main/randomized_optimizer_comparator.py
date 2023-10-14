@@ -27,7 +27,7 @@ class RandomOptimizerComparator(object):
 
     def __init__(self, problem, init_state, name,
                   verbose=False,
-                  image_path="/home/amandapotts/Documents/git/cs-7461/project-2/out/",
+                  image_path="analysis/",
                  population_sizes=[  200, 300, 400, 500, 1000],
                  mutation_probs=[0.0001, 0.001, 0.01, 0.05, 0.1 ],
                  geom_decay=[0.9, 0.99, 0.999, 0.9999, 0.99999],
