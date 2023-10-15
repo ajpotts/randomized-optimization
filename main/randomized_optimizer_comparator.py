@@ -14,6 +14,7 @@ from datetime import date
 
 from mlrose import fitness
 import mlrose
+import statistics 
 
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
@@ -185,31 +186,36 @@ class RandomOptimizerComparator(object):
         hc_results = []
         self.set_hill_climbing_threads_fixed_param(N, hc_results)
         
-        print(best_simulated_annealing)
-        print(len(best_simulated_annealing))
-        
         sa_results = []
         self.set_simulated_annealing_threads_fixed_params(N, sa_results, str(best_simulated_annealing[4][0]), best_simulated_annealing[4][1])
         
         ga_results = []
-        self.set_genetic_threads_fixed_param(ga_results, best_genetic[4][0], best_genetic[4][1])
+        self.set_genetic_threads_fixed_param(N, ga_results, best_genetic[4][0], best_genetic[4][1])
         
         mimic_results = []
-        self.set_mimic_threads_fixed_param(N, mimic_results, best_mimic[4][0])
+        self.set_mimic_threads_fixed_param(N, mimic_results, best_mimic[4])
         self.execute_threads()       
         
         logging.info('Num Runs : ' + str(N))
         logging.info('Randomized Hill Climbing Avg Fitness : ' + str(self.get_avg_fitness(hc_results)))
+        logging.info('Randomized Hill Climbing Var Fitness : ' + str(self.get_var_fitness(hc_results)))        
         logging.info('Randomized Hill Climbing Avg Run Time : ' + str(self.get_avg_run_time(hc_results)))  
+        logging.info('Randomized Hill Climbing Var Run Time : ' + str(self.get_var_run_time(hc_results)))  
             
         logging.info('Simulated Annealing Avg Fitness : ' + str(self.get_avg_fitness(sa_results)))
+        logging.info('Simulated Annealing Var Fitness : ' + str(self.get_var_fitness(sa_results)))        
         logging.info('Simulated Annealing Avg Run Time : ' + str(self.get_avg_run_time(sa_results)))  
+        logging.info('Simulated Annealing Var Run Time : ' + str(self.get_var_run_time(sa_results))) 
 
         logging.info('Genetic Algorithm Avg Fitness : ' + str(self.get_avg_fitness(ga_results)))
+        logging.info('Genetic Algorithm Var Fitness : ' + str(self.get_var_fitness(ga_results)))        
         logging.info('Genetic Algorithm Avg Run Time : ' + str(self.get_avg_run_time(ga_results)))  
+        logging.info('Genetic Algorithm Var Run Time : ' + str(self.get_var_run_time(ga_results)))  
 
         logging.info('MIMIC Avg Fitness : ' + str(self.get_avg_fitness(mimic_results)))
+        logging.info('MIMIC Var Fitness : ' + str(self.get_var_fitness(mimic_results)))        
         logging.info('MIMIC Avg Run Time : ' + str(self.get_avg_run_time(mimic_results)))  
+        logging.info('MIMIC Var Run Time : ' + str(self.get_var_run_time(mimic_results))) 
         
         blue_patch = mpatches.Patch(color='blue', label="Simulated Annealing")
         green_patch = mpatches.Patch(color='green', label="Randomized Hill Climbing")
@@ -239,6 +245,22 @@ class RandomOptimizerComparator(object):
                 curve = results[i][3]
                 plt.plot(curve, color=color)
                 
+    def get_fitness_list(self, results):
+        
+        lst = []
+        for r in results:
+            lst.append(r[0])
+
+        return lst  
+     
+    def get_runtime_list(self, results):
+        
+        lst = []
+        for r in results:
+            lst.append(r[1])
+
+        return lst 
+                
     def get_avg_fitness(self, results):
         avg = 0
         if(len(results) > 0):
@@ -256,6 +278,22 @@ class RandomOptimizerComparator(object):
                 sum += r[1]
             avg = sum / len(results)
         return avg
+    
+    def get_var_fitness(self, results):
+        lst = self.get_fitness_list(results)
+        if(len(lst) > 1):
+            var = statistics.variance(lst)
+        else:
+            var = 0
+        return var 
+    
+    def get_var_run_time(self, results):
+        lst = self.get_runtime_list(results)
+        if(len(lst) > 1):
+            var = statistics.variance(lst)
+        else:
+            var = 0
+        return var 
 
     def get_simulated_annealing_run(self, schedule_name, decay, results, random_state=1):
         
@@ -407,7 +445,7 @@ class RandomOptimizerComparator(object):
             logging.info(msg)
             print(msg)            
     
-    def set_genetic_threads_fixed_param(self, results, population_size, mutation_prob, random_state=1):
+    def set_genetic_threads_fixed_param(self, N, results, population_size, mutation_prob, random_state=1):
         for i in range(N):
             thread = threading.Thread(target=self.get_genetic_run, args=(population_size, mutation_prob, results, i))
             self.threads.append(thread)
