@@ -92,18 +92,6 @@ class RandomOptimizerComparator(object):
 
         hc_results = []
         self.set_hill_climbing_threads(hc_results) 
-        
-        sa_results = []
-        self.set_simulated_annealing_threads(sa_results)
-        
-        ga_results = []
-        self.set_genetic_threads(ga_results, self.population_sizes, self.mutation_probs)
-        
-        self.execute_threads()
-        
-        mimic_results = []
-        self.set_mimic_threads(mimic_results, self.population_sizes)
-        
         self.execute_threads()
         
         best_hill_climbing = self.get_best_result(hc_results)
@@ -112,14 +100,33 @@ class RandomOptimizerComparator(object):
         logging.info('Best Hill Climbing : ' + str(best_hill_climbing))
         logging.info('Run Time Hill Climbing : ' + str(hill_climbing_time))
         self.print_fitness_curves(hc_results, "Randomized Hill Climbing", "hill_climbing_params")
-                     
+        
+        sa_results = []
+        self.set_simulated_annealing_threads(sa_results)
+        self.execute_threads()
+        
         best_annealing = self.get_best_result(sa_results)                                                         
         curve_annealing = self.get_best_curve(best_annealing)
         annealing_time = self.get_avg_run_time(sa_results)
         logging.info('Best Simulated Annealing : ' + str(best_annealing))
         logging.info('Run Time Simulated Annealing : ' + str(annealing_time))
         self.print_fitness_curves(sa_results, "Simulated Annealing", "simulated_annealing_params")
+        
+        ga_results = []
+        self.set_genetic_threads(ga_results, self.population_sizes, self.mutation_probs)
+        self.execute_threads()
 
+        best_genetic = self.get_best_result(ga_results)
+        curve_genetic = self.get_best_curve(best_genetic)
+        genetic_time = self.get_avg_run_time(ga_results)
+        logging.info('Best Genetic Algorithm : ' + str(best_genetic))
+        logging.info('Run Time Genetic Algorithm : ' + str(genetic_time))   
+        self.print_fitness_curves(ga_results, "Genetic Algorithm", "genetic_alg_params")   
+        
+        mimic_results = []
+        self.set_mimic_threads(mimic_results, self.population_sizes)
+        self.execute_threads()
+        
         best_mimic = self.get_best_result(mimic_results)        
         curve_mimic = self.get_best_curve(best_mimic)
         mimic_time = self.get_avg_run_time(mimic_results)
@@ -127,13 +134,8 @@ class RandomOptimizerComparator(object):
         logging.info('Run Time MIMIC : ' + str(mimic_time))
         self.print_fitness_curves(mimic_results, "MIMIC", "mimic_params")
         
-        best_genetic = self.get_best_result(ga_results)
-        curve_genetic = self.get_best_curve(best_genetic)
-        genetic_time = self.get_avg_run_time(ga_results)
-        logging.info('Best Genetic Algorithm : ' + str(best_genetic))
-        logging.info('Run Time Genetic Algorithm : ' + str(genetic_time))   
-        self.print_fitness_curves(ga_results, "Genetic Algorithm", "genetic_alg_params")
-        
+     
+   
         blue_patch = mpatches.Patch(color='blue', label="Simulated Annealing")
         green_patch = mpatches.Patch(color='green', label="Randomized Hill Climbing")
         red_patch = mpatches.Patch(color='red', label="MIMIC")
@@ -185,32 +187,35 @@ class RandomOptimizerComparator(object):
         
         hc_results = []
         self.set_hill_climbing_threads_fixed_param(N, hc_results)
-        
-        sa_results = []
-        self.set_simulated_annealing_threads_fixed_params(N, sa_results, str(best_simulated_annealing[4][0]), best_simulated_annealing[4][1])
-        
-        ga_results = []
-        self.set_genetic_threads_fixed_param(N, ga_results, best_genetic[4][0], best_genetic[4][1])
-        
-        mimic_results = []
-        self.set_mimic_threads_fixed_param(N, mimic_results, best_mimic[4])
-        self.execute_threads()       
+        self.execute_threads()
         
         logging.info('Num Runs : ' + str(N))
         logging.info('Randomized Hill Climbing Avg Fitness : ' + str(self.get_avg_fitness(hc_results)))
         logging.info('Randomized Hill Climbing Var Fitness : ' + str(self.get_var_fitness(hc_results)))        
         logging.info('Randomized Hill Climbing Avg Run Time : ' + str(self.get_avg_run_time(hc_results)))  
-        logging.info('Randomized Hill Climbing Var Run Time : ' + str(self.get_var_run_time(hc_results)))  
-            
+        logging.info('Randomized Hill Climbing Var Run Time : ' + str(self.get_var_run_time(hc_results)))
+        
+        sa_results = []
+        self.set_simulated_annealing_threads_fixed_params(N, sa_results, str(best_simulated_annealing[4][0]), best_simulated_annealing[4][1])
+        self.execute_threads()
+        
         logging.info('Simulated Annealing Avg Fitness : ' + str(self.get_avg_fitness(sa_results)))
         logging.info('Simulated Annealing Var Fitness : ' + str(self.get_var_fitness(sa_results)))        
         logging.info('Simulated Annealing Avg Run Time : ' + str(self.get_avg_run_time(sa_results)))  
         logging.info('Simulated Annealing Var Run Time : ' + str(self.get_var_run_time(sa_results))) 
-
+        
+        ga_results = []
+        self.set_genetic_threads_fixed_param(N, ga_results, best_genetic[4][0], best_genetic[4][1])
+        self.execute_threads()
+        
         logging.info('Genetic Algorithm Avg Fitness : ' + str(self.get_avg_fitness(ga_results)))
         logging.info('Genetic Algorithm Var Fitness : ' + str(self.get_var_fitness(ga_results)))        
         logging.info('Genetic Algorithm Avg Run Time : ' + str(self.get_avg_run_time(ga_results)))  
         logging.info('Genetic Algorithm Var Run Time : ' + str(self.get_var_run_time(ga_results)))  
+        
+        mimic_results = []
+        self.set_mimic_threads_fixed_param(N, mimic_results, best_mimic[4])
+        self.execute_threads()       
 
         logging.info('MIMIC Avg Fitness : ' + str(self.get_avg_fitness(mimic_results)))
         logging.info('MIMIC Var Fitness : ' + str(self.get_var_fitness(mimic_results)))        
@@ -243,6 +248,8 @@ class RandomOptimizerComparator(object):
         for i in range(len(results)):
             if(len(results[i]) > 3):
                 curve = results[i][3]
+                if(len(curve) > self.max_iterations):
+                    curve = curve[0:self.max_iterations - 1]
                 plt.plot(curve, color=color)
                 
     def get_fitness_list(self, results):
@@ -372,7 +379,7 @@ class RandomOptimizerComparator(object):
         # prctl.set_name("randomized hill climbing")
         start_time = time.time()
         
-        iter = int(self.max_iterations / restarts)
+        iter = self.max_iterations  # int(self.max_iterations / restarts)
         
         state, fitness, curve = mlrose.random_hill_climb(self.problem,
                                                                    max_attempts=self.max_attempts,
@@ -566,7 +573,10 @@ class RandomOptimizerComparator(object):
     
     def get_best_curve(self, result):
         try:
-            return result[3]
+            curve = result[3]
+            if(len(curve) > self.max_iterations):
+                curve = curve[0:self.max_iterations - 1]
+            return curve
         except:
             return []
     
