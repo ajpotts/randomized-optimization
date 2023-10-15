@@ -461,3 +461,2058 @@ INFO:root:Best Genetic Algorithm : (127.0, 39.23312187194824, array([1, 1, 1, 1,
        127., 127., 127., 127., 127., 127., 127., 127., 127., 127., 127.,
        127., 127., 127., 127., 127., 127.]), (1000, 0.0001))
 INFO:root:Run Time Genetic Algorithm : 41.46396942138672
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.27066659927368164
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2655317783355713
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2649343013763428
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.3187541961669922
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.5072019100189209
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.26407527923583984
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2594132423400879
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.26053810119628906
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25399351119995117
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2671360969543457
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Finished Hill Climbing: 10 in 0.16391324996948242
+
+INFO:root:Finished Hill Climbing: 10 in 0.160231351852417
+
+INFO:root:Finished Hill Climbing: 10 in 0.1560359001159668
+
+INFO:root:Finished Hill Climbing: 10 in 0.1617128849029541
+
+INFO:root:Finished Hill Climbing: 10 in 0.15485501289367676
+
+INFO:root:Finished Hill Climbing: 10 in 0.1556403636932373
+
+INFO:root:Finished Hill Climbing: 10 in 0.16406631469726562
+
+INFO:root:Finished Hill Climbing: 10 in 0.1553175449371338
+
+INFO:root:Finished Hill Climbing: 10 in 0.154463529586792
+
+INFO:root:Finished Hill Climbing: 10 in 0.15590929985046387
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2629232406616211
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2516157627105713
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2652299404144287
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2512843608856201
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2638204097747803
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25113725662231445
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2503397464752197
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.250507116317749
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25103235244750977
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2544257640838623
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Finished Hill Climbing: 10 in 0.15710830688476562
+
+INFO:root:Finished Hill Climbing: 10 in 0.1561286449432373
+
+INFO:root:Finished Hill Climbing: 10 in 0.19762849807739258
+
+INFO:root:Finished Hill Climbing: 10 in 0.16092991828918457
+
+INFO:root:Finished Hill Climbing: 10 in 0.15552997589111328
+
+INFO:root:Finished Hill Climbing: 10 in 0.5724601745605469
+
+INFO:root:Finished Hill Climbing: 10 in 0.1586894989013672
+
+INFO:root:Finished Hill Climbing: 10 in 0.15515422821044922
+
+INFO:root:Finished Hill Climbing: 10 in 0.15490078926086426
+
+INFO:root:Finished Hill Climbing: 10 in 0.1587207317352295
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2510542869567871
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2548203468322754
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2519547939300537
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25957250595092773
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2510998249053955
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2520887851715088
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25122714042663574
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25365543365478516
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2520158290863037
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25177574157714844
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Finished Hill Climbing: 10 in 0.15718293190002441
+
+INFO:root:Finished Hill Climbing: 10 in 0.15831494331359863
+
+INFO:root:Finished Hill Climbing: 10 in 0.15738201141357422
+
+INFO:root:Finished Hill Climbing: 10 in 0.1607511043548584
+
+INFO:root:Finished Hill Climbing: 10 in 0.1567854881286621
+
+INFO:root:Finished Hill Climbing: 10 in 0.15849590301513672
+
+INFO:root:Finished Hill Climbing: 10 in 0.15570759773254395
+
+INFO:root:Finished Hill Climbing: 10 in 0.15849089622497559
+
+INFO:root:Finished Hill Climbing: 10 in 0.15988683700561523
+
+INFO:root:Finished Hill Climbing: 10 in 0.4027364253997803
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.13393211364746094
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2653160095214844
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.18366026878356934
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.20719003677368164
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2698934078216553
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2644381523132324
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2626175880432129
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2882564067840576
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2299814224243164
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.27331042289733887
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Finished Hill Climbing: 10 in 0.13687777519226074
+
+INFO:root:Finished Hill Climbing: 10 in 0.15587472915649414
+
+INFO:root:Finished Hill Climbing: 10 in 0.14661049842834473
+
+INFO:root:Finished Hill Climbing: 10 in 0.13981294631958008
+
+INFO:root:Finished Hill Climbing: 10 in 0.14278936386108398
+
+INFO:root:Finished Hill Climbing: 10 in 0.14540958404541016
+
+INFO:root:Finished Hill Climbing: 10 in 0.1466965675354004
+
+INFO:root:Finished Hill Climbing: 10 in 0.1470804214477539
+
+INFO:root:Finished Hill Climbing: 10 in 0.13509798049926758
+
+INFO:root:Finished Hill Climbing: 10 in 0.13763809204101562
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2768692970275879
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25281357765197754
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.18363547325134277
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.21604704856872559
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2600133419036865
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.24778532981872559
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25463175773620605
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.23131918907165527
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.5007362365722656
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.4970531463623047
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Finished Hill Climbing: 10 in 0.14291644096374512
+
+INFO:root:Finished Hill Climbing: 10 in 0.1633906364440918
+
+INFO:root:Finished Hill Climbing: 10 in 0.15377068519592285
+
+INFO:root:Finished Hill Climbing: 10 in 0.14771151542663574
+
+INFO:root:Finished Hill Climbing: 10 in 0.14451050758361816
+
+INFO:root:Finished Hill Climbing: 10 in 0.3092367649078369
+
+INFO:root:Finished Hill Climbing: 10 in 0.1449899673461914
+
+INFO:root:Finished Hill Climbing: 10 in 0.5582053661346436
+
+INFO:root:Finished Hill Climbing: 10 in 0.1381978988647461
+
+INFO:root:Finished Hill Climbing: 10 in 0.651848316192627
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.34047627449035645
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.685218095779419
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.21817898750305176
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 1.0662331581115723
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2638237476348877
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2509768009185791
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25512051582336426
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2947118282318115
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2849414348602295
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.5604097843170166
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Finished Hill Climbing: 10 in 0.14441466331481934
+
+INFO:root:Finished Hill Climbing: 10 in 0.20223164558410645
+
+INFO:root:Finished Hill Climbing: 10 in 0.15276288986206055
+
+INFO:root:Finished Hill Climbing: 10 in 0.14622259140014648
+
+INFO:root:Finished Hill Climbing: 10 in 0.1499788761138916
+
+INFO:root:Finished Hill Climbing: 10 in 0.15038156509399414
+
+INFO:root:Finished Hill Climbing: 10 in 0.15387773513793945
+
+INFO:root:Finished Hill Climbing: 10 in 0.14725542068481445
+
+INFO:root:Finished Hill Climbing: 10 in 0.13846206665039062
+
+INFO:root:Finished Hill Climbing: 10 in 0.1413135528564453
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.28124523162841797
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2648775577545166
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.18499326705932617
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2770354747772217
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.5264852046966553
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25725507736206055
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2615950107574463
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.27936339378356934
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.22573518753051758
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.27599143981933594
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.15886712074279785
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.09341263771057129
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.02557992935180664
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.15821266174316406
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.1982741355895996
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.20153093338012695
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.09086418151855469
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.2583045959472656
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.29223179817199707
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.025339365005493164
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09010720252990723
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.26468515396118164
+
+INFO:root:Best Hill Climbing : (73.0, 0.15886712074279785, array([0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]), array([32., 32., 34., ..., 69., 69., 69.]), 10)
+INFO:root:Run Time Hill Climbing : 0.15886712074279785
+INFO:root:Best Simulated Annealing : (88.0, 0.26468515396118164, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+       1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1,
+       1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]), array([32., 34., 33., ..., 88., 88., 88.]), ('arithmetic', 0.0001))
+INFO:root:Run Time Simulated Annealing : 0.15441296317360617
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.15994000434875488
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.09427547454833984
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.02464890480041504
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.08768224716186523
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.1269998550415039
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.2078111171722412
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.09149503707885742
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.2691793441772461
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.28397703170776367
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.025310039520263672
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09037184715270996
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2559082508087158
+
+INFO:root:Best Hill Climbing : (73.0, 0.15994000434875488, array([0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]), array([32., 32., 34., ..., 69., 69., 69.]), 10)
+INFO:root:Run Time Hill Climbing : 0.15994000434875488
+INFO:root:Best Simulated Annealing : (88.0, 0.2559082508087158, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+       1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1,
+       1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]), array([32., 34., 33., ..., 88., 88., 88.]), ('arithmetic', 0.0001))
+INFO:root:Run Time Simulated Annealing : 0.14160537719726562
+INFO:root:Best MIMIC : None
+INFO:root:Run Time MIMIC : 0.0
+INFO:root:Best Genetic Algorithm : None
+INFO:root:Run Time Genetic Algorithm : 0.0
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.1588284969329834
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.09330940246582031
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.025496721267700195
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.18760061264038086
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.10303282737731934
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.20610785484313965
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.09112858772277832
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.2657201290130615
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.2959468364715576
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.025450706481933594
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09462094306945801
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.26215219497680664
+
+INFO:root:Best Hill Climbing : (73.0, 0.1588284969329834, array([0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]), array([32., 32., 34., ..., 69., 69., 69.]), 10)
+INFO:root:Run Time Hill Climbing : 0.1588284969329834
+INFO:root:Best Simulated Annealing : (88.0, 0.26215219497680664, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+       1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1,
+       1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]), array([32., 34., 33., ..., 88., 88., 88.]), ('arithmetic', 0.0001))
+INFO:root:Run Time Simulated Annealing : 0.15005152875726874
+INFO:root:Best MIMIC : None
+INFO:root:Run Time MIMIC : 0.0
+INFO:root:Best Genetic Algorithm : None
+INFO:root:Run Time Genetic Algorithm : 0.0
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.16103553771972656
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.0951688289642334
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.025364160537719727
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.08786606788635254
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.22076869010925293
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.3382248878479004
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.09476709365844727
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.4207744598388672
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.3263511657714844
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.02549123764038086
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09035754203796387
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2523772716522217
+
+INFO:root:Best Hill Climbing : (73.0, 0.16103553771972656, array([0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]), array([32., 32., 34., ..., 69., 69., 69.]), 10)
+INFO:root:Run Time Hill Climbing : 0.16103553771972656
+INFO:root:Best Simulated Annealing : (88.0, 0.2523772716522217, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+       1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1,
+       1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]), array([32., 34., 33., ..., 88., 88., 88.]), ('arithmetic', 0.0001))
+INFO:root:Run Time Simulated Annealing : 0.17977376417680221
+INFO:root:Best MIMIC : None
+INFO:root:Run Time MIMIC : 0.0
+INFO:root:Best Genetic Algorithm : None
+INFO:root:Run Time Genetic Algorithm : 0.0
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.159942626953125
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.02601027488708496
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.12219119071960449
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.09011673927307129
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.20546245574951172
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.3465406894683838
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.09125590324401855
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.2738327980041504
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.025568008422851562
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.31987476348876953
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09487032890319824
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2601943016052246
+
+INFO:root:Best Hill Climbing : (73.0, 0.159942626953125, array([0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]), array([32., 32., 34., ..., 69., 69., 69.]), 10)
+INFO:root:Run Time Hill Climbing : 0.159942626953125
+INFO:root:Best Simulated Annealing : (88.0, 0.2601943016052246, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+       1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1,
+       1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]), array([32., 34., 33., ..., 88., 88., 88.]), ('arithmetic', 0.0001))
+INFO:root:Run Time Simulated Annealing : 0.16871976852416992
+INFO:root:Best MIMIC : None
+INFO:root:Run Time MIMIC : 0.0
+INFO:root:Best Genetic Algorithm : None
+INFO:root:Run Time Genetic Algorithm : 0.0
+INFO:root:Finished Hill Climbing: 10 in 0.15656256675720215
+
+INFO:root:Finished Hill Climbing: 10 in 0.3451979160308838
+
+INFO:root:Finished Hill Climbing: 10 in 0.14260506629943848
+
+INFO:root:Finished Hill Climbing: 10 in 0.3072488307952881
+
+INFO:root:Finished Hill Climbing: 10 in 0.1487259864807129
+
+INFO:root:Finished Hill Climbing: 10 in 0.14969611167907715
+
+INFO:root:Finished Hill Climbing: 10 in 0.41608238220214844
+
+INFO:root:Finished Hill Climbing: 10 in 0.13808202743530273
+
+INFO:root:Finished Hill Climbing: 10 in 0.137129545211792
+
+INFO:root:Finished Hill Climbing: 10 in 0.4524571895599365
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.27192068099975586
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.5097427368164062
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.6288065910339355
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.28325533866882324
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2564425468444824
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.7411506175994873
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.25809288024902344
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.28673291206359863
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2252671718597412
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.2749772071838379
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 500
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.03190755844116211
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.030442237854003906
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.025733232498168945
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.028165578842163086
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.056774139404296875
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.028146028518676758
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.030072689056396484
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.0312650203704834
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.030658721923828125
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.02493762969970703
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.029961824417114258
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.03028082847595215
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 200 0.01
+
+INFO:root:Could not compute Genetic Alg: 200 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 500
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.030958175659179688
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.030619144439697266
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.025265932083129883
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.027739524841308594
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.027011871337890625
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.02707695960998535
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.029750585556030273
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.030849218368530273
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.031052589416503906
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.025594472885131836
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.029739856719970703
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.02992701530456543
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 200 0.01
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 200 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Finished Genetic Alg: 1000 0.1 in 72.24657821655273
+
+INFO:root:Finished Genetic Alg: 1000 0.05 in 73.22786211967468
+
+INFO:root:Finished Genetic Alg: 1000 0.01 in 76.17472314834595
+
+INFO:root:Finished Genetic Alg: 1000 0.001 in 78.88318371772766
+
+INFO:root:Finished Genetic Alg: 1000 0.0001 in 92.21633577346802
+
+INFO:root:Could not compute MIMIC: 1000index 616 is out of bounds for axis 0 with size 500
+
+INFO:root:Finished MIMIC: 200 in 1311.0045993328094
+
+INFO:root:Finished MIMIC: 400 in 1343.0249631404877
+
+INFO:root:Finished MIMIC: 300 in 1363.9145905971527
+
+INFO:root:Finished MIMIC: 500 in 1369.6340336799622
+
+INFO:root:Best Hill Climbing : (61.0, 0.030958175659179688, array([0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0,
+       1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0,
+       0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1,
+       1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]), array([32., 32., 34., 34., 34., 36., 41., 41., 41., 41., 41., 41., 41.,
+       41., 41., 44., 44., 45., 45., 45., 45., 45., 45., 45., 45., 45.,
+       47., 47., 47., 47., 48., 48., 48., 51., 51., 51., 51., 51., 51.,
+       51., 51., 52., 52., 52., 52., 52., 52., 52., 52., 52., 32., 36.,
+       36., 36., 36., 38., 39., 39., 39., 40., 41., 41., 41., 41., 41.,
+       41., 41., 44., 46., 46., 46., 46., 46., 46., 46., 46., 46., 46.,
+       46., 46., 46., 46., 46., 46., 46., 46., 46., 46., 51., 55., 55.,
+       55., 55., 55., 55., 55., 55., 55., 57., 57., 32., 36., 40., 40.,
+       43., 46., 46., 46., 47., 47., 47., 47., 47., 47., 47., 47., 49.,
+       52., 52., 52., 52., 52., 52., 56., 58., 58., 58., 58., 58., 58.,
+       58., 58., 58., 58., 58., 58., 58., 58., 60., 60., 60., 60., 60.,
+       60., 60., 61., 61., 61., 61., 61., 37., 40., 40., 40., 40., 40.,
+       40., 42., 42., 44., 47., 47., 47., 47., 48., 48., 48., 49., 49.,
+       50., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53.,
+       57., 57., 57., 57., 57., 57., 57., 57., 58., 58., 58., 58., 58.,
+       58., 58., 58., 58., 58., 36., 37., 41., 44., 44., 44., 44., 44.,
+       44., 44., 44., 44., 44., 44., 48., 48., 48., 52., 52., 55., 55.,
+       56., 56., 56., 56., 56., 57., 57., 57., 57., 57., 57., 57., 57.,
+       57., 57., 57., 57., 57., 57., 57., 57., 57., 57., 60., 60., 60.,
+       60., 60., 60., 32., 32., 37., 39., 39., 39., 39., 39., 39., 39.,
+       39., 39., 39., 39., 41., 41., 41., 41., 46., 46., 46., 46., 48.,
+       50., 50., 50., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51.,
+       51., 51., 51., 51., 51., 51., 51., 52., 52., 52., 52., 53., 55.,
+       55., 32., 37., 37., 37., 37., 39., 39., 39., 39., 39., 39., 39.,
+       39., 41., 41., 41., 41., 44., 44., 44., 44., 48., 48., 49., 49.,
+       49., 49., 49., 55., 55., 55., 55., 55., 55., 55., 55., 56., 56.,
+       56., 56., 56., 56., 56., 60., 60., 60., 60., 60., 60., 60., 32.,
+       34., 34., 34., 34., 37., 37., 38., 38., 38., 39., 40., 41., 41.,
+       41., 41., 41., 41., 41., 42., 42., 42., 42., 42., 44., 44., 44.,
+       47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47.,
+       47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 32., 32., 33.,
+       36., 38., 42., 42., 44., 44., 44., 46., 46., 46., 46., 46., 46.,
+       46., 50., 50., 50., 50., 50., 50., 50., 50., 50., 50., 51., 52.,
+       58., 58., 58., 58., 58., 58., 58., 58., 58., 58., 58., 59., 59.,
+       59., 59., 59., 59., 59., 59., 59., 59., 32., 33., 36., 36., 36.,
+       36., 36., 36., 37., 37., 39., 41., 44., 44., 44., 44., 47., 47.,
+       47., 47., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51.,
+       51., 53., 53., 53., 53., 53., 53., 53., 53., 53., 57., 57., 57.,
+       57., 57., 57., 57., 57., 57., 36., 36., 38., 40., 40., 40., 40.,
+       40., 46., 46., 47., 47., 48., 48., 48., 48., 49., 49., 49., 49.,
+       49., 50., 50., 52., 52., 52., 54., 54., 54., 54., 54., 54., 55.,
+       55., 55., 56., 56., 56., 58., 58., 58., 58., 58., 58., 58., 58.,
+       58., 58., 58., 58.]), 10)
+INFO:root:Run Time Hill Climbing : 0.030958175659179688
+INFO:root:Best Simulated Annealing : (73.0, 0.02707695960998535, array([1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+       1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0,
+       1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+       0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0,
+       1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0]), array([32., 34., 33., 38., 37., 37., 41., 41., 41., 38., 38., 41., 43.,
+       43., 44., 44., 44., 44., 44., 44., 44., 44., 44., 47., 49., 49.,
+       49., 49., 49., 50., 50., 50., 49., 49., 47., 47., 47., 47., 47.,
+       47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47.,
+       48., 48., 48., 48., 48., 49., 50., 50., 51., 50., 50., 50., 50.,
+       50., 50., 50., 50., 50., 51., 51., 51., 54., 54., 54., 54., 54.,
+       55., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56.,
+       56., 56., 56., 56., 56., 57., 57., 57., 60., 60., 60., 60., 60.,
+       60., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62.,
+       63., 63., 63., 63., 64., 64., 64., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73.]), ('geometric', 0.99))
+INFO:root:Run Time Simulated Annealing : 0.028602470051158558
+INFO:root:Best MIMIC : (78.0, 1311.0045993328094, array([1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0,
+       1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1,
+       1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1,
+       1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0]), array([51., 54., 58., 59., 63., 67., 76., 76., 76., 78., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78.]), 200)
+INFO:root:Run Time MIMIC : 1346.894546687603
+INFO:root:Best Genetic Algorithm : (86.0, 92.21633577346802, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1,
+       1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1,
+       0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]), array([59., 59., 59., 61., 61., 61., 61., 61., 62., 62., 62., 63., 63.,
+       63., 63., 63., 63., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 74., 74., 74., 74., 74., 74., 74., 75., 75., 75.,
+       75., 75., 75., 75., 75., 75., 75., 75., 75., 75., 75., 75., 75.,
+       75., 75., 76., 76., 76., 76., 76., 76., 76., 78., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 80., 80., 81., 81., 81., 81., 81.,
+       81., 81., 81., 81., 81., 81., 81., 81., 81., 81., 81., 81., 81.,
+       81., 81., 81., 81., 81., 81., 81., 81., 81., 81., 81., 81., 81.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82., 82.,
+       83., 83., 83., 83., 83., 83., 83., 83., 83., 83., 83., 83., 84.,
+       84., 84., 84., 84., 84., 84., 84., 84., 84., 84., 84., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86., 86.,
+       86., 86., 86., 86., 86., 86., 86., 86.]), (1000, 0.0001))
+INFO:root:Run Time Genetic Algorithm : 78.5497365951538
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 500
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.030625104904174805
+
+INFO:root:Finished Hill Climbing: 10 in 0.06220293045043945
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.025695085525512695
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.027704715728759766
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.07984352111816406
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.05071568489074707
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.029838085174560547
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.030190706253051758
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.03035116195678711
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.02522134780883789
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.029675960540771484
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.030173540115356445
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 200 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Finished Genetic Alg: 1000 0.05 in 74.13335871696472
+
+INFO:root:Finished Genetic Alg: 1000 0.1 in 75.864173412323
+
+INFO:root:Finished Genetic Alg: 1000 0.0001 in 77.310467004776
+
+INFO:root:Finished Genetic Alg: 1000 0.001 in 82.99851775169373
+
+INFO:root:Finished Genetic Alg: 1000 0.01 in 108.90133857727051
+
+INFO:root:Could not compute MIMIC: 1000index 617 is out of bounds for axis 0 with size 500
+
+INFO:root:Finished MIMIC: 400 in 1547.1664381027222
+
+INFO:root:Finished MIMIC: 500 in 1592.545168876648
+
+INFO:root:Finished MIMIC: 200 in 1594.2720732688904
+
+INFO:root:Finished MIMIC: 300 in 1600.1084015369415
+
+INFO:root:Best Hill Climbing : (68.0, 0.06220293045043945, array([1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1,
+       0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,
+       0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1,
+       0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1,
+       0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1]), array([32., 32., 34., 34., 34., 67., 67., 67., 67., 67., 67., 67., 67.,
+       67., 67., 67., 67., 67., 67., 67., 67., 67., 67., 67., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 32., 34.,
+       34., 36., 36., 36., 36., 36., 37., 37., 41., 41., 41., 41., 41.,
+       41., 41., 42., 47., 47., 47., 47., 47., 47., 50., 50., 50., 50.,
+       54., 54., 54., 54., 54., 55., 55., 55., 55., 56., 56., 56., 56.,
+       56., 56., 56., 59., 59., 59., 59., 59., 59., 36., 40., 44., 46.,
+       46., 48., 48., 54., 54., 54., 54., 54., 54., 54., 54., 54., 54.,
+       54., 54., 54., 54., 54., 54., 54., 54., 54., 54., 54., 54., 54.,
+       55., 57., 57., 57., 57., 57., 57., 57., 57., 57., 57., 57., 57.,
+       57., 57., 57., 58., 58., 58., 58., 32., 35., 35., 36., 36., 40.,
+       40., 40., 40., 40., 40., 40., 40., 42., 44., 47., 47., 49., 49.,
+       49., 49., 49., 50., 51., 51., 51., 51., 51., 51., 51., 55., 55.,
+       55., 59., 59., 59., 59., 59., 59., 59., 59., 59., 59., 59., 59.,
+       59., 59., 59., 59., 59., 34., 37., 41., 41., 41., 45., 45., 45.,
+       45., 45., 45., 45., 45., 45., 47., 48., 51., 51., 51., 51., 51.,
+       51., 51., 51., 51., 51., 51., 53., 57., 57., 57., 57., 57., 57.,
+       57., 57., 57., 57., 57., 57., 57., 57., 57., 57., 57., 57., 58.,
+       58., 58., 58., 32., 32., 33., 35., 36., 36., 36., 41., 43., 43.,
+       45., 50., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53.,
+       53., 54., 54., 54., 54., 54., 54., 54., 54., 54., 55., 55., 55.,
+       55., 58., 58., 58., 58., 58., 58., 58., 58., 58., 58., 58., 58.,
+       58., 33., 33., 35., 37., 37., 37., 37., 38., 40., 40., 42., 42.,
+       43., 44., 44., 47., 47., 47., 47., 49., 49., 49., 49., 49., 52.,
+       52., 52., 52., 52., 52., 52., 52., 52., 52., 52., 53., 53., 53.,
+       54., 54., 54., 54., 54., 54., 54., 54., 54., 54., 55., 55., 32.,
+       34., 34., 34., 34., 37., 37., 39., 40., 40., 41., 44., 44., 44.,
+       44., 44., 44., 44., 44., 44., 44., 45., 48., 48., 48., 53., 53.,
+       53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53.,
+       53., 53., 53., 53., 53., 53., 53., 54., 54., 54., 33., 33., 33.,
+       33., 35., 35., 36., 39., 39., 39., 41., 42., 42., 46., 46., 50.,
+       50., 50., 50., 50., 50., 50., 51., 51., 51., 51., 51., 51., 51.,
+       51., 51., 51., 51., 53., 53., 53., 53., 53., 53., 53., 53., 53.,
+       53., 53., 53., 55., 55., 55., 55., 55., 33., 34., 34., 34., 34.,
+       38., 40., 40., 44., 44., 44., 44., 44., 44., 44., 44., 44., 44.,
+       46., 46., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51.,
+       51., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 54., 54.,
+       54., 54., 54., 54., 54., 54., 32., 33., 37., 37., 41., 41., 41.,
+       41., 41., 41., 44., 48., 48., 48., 48., 49., 49., 49., 49., 49.,
+       49., 49., 49., 49., 51., 51., 51., 51., 51., 51., 51., 51., 55.,
+       55., 55., 55., 55., 55., 57., 57., 57., 57., 57., 58., 58., 58.,
+       58., 58., 58., 58.]), 10)
+INFO:root:Run Time Hill Climbing : 0.06220293045043945
+INFO:root:Best Simulated Annealing : (73.0, 0.05071568489074707, array([1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+       1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0,
+       1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+       0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0,
+       1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0]), array([32., 34., 33., 38., 37., 37., 41., 41., 41., 38., 38., 41., 43.,
+       43., 44., 44., 44., 44., 44., 44., 44., 44., 44., 47., 49., 49.,
+       49., 49., 49., 50., 50., 50., 49., 49., 47., 47., 47., 47., 47.,
+       47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47.,
+       48., 48., 48., 48., 48., 49., 50., 50., 51., 50., 50., 50., 50.,
+       50., 50., 50., 50., 50., 51., 51., 51., 54., 54., 54., 54., 54.,
+       55., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56.,
+       56., 56., 56., 56., 56., 57., 57., 57., 60., 60., 60., 60., 60.,
+       60., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62.,
+       63., 63., 63., 63., 64., 64., 64., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73.]), ('geometric', 0.99))
+INFO:root:Run Time Simulated Annealing : 0.03545771945606579
+INFO:root:Best MIMIC : (79.0, 1547.1664381027222, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1,
+       0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0,
+       1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1,
+       0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1]), array([57., 57., 57., 62., 65., 76., 79., 79., 79., 79., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79., 79.,
+       79., 79., 79., 79., 79., 79., 79., 79., 79.]), 400)
+INFO:root:Run Time MIMIC : 1583.5230204463005
+INFO:root:Best Genetic Algorithm : (77.0, 108.90133857727051, array([0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1,
+       0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1,
+       1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1,
+       0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]), array([53., 56., 59., 59., 60., 60., 60., 60., 62., 62., 62., 64., 64.,
+       64., 64., 64., 64., 64., 64., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70., 70.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77.]), (1000, 0.01))
+INFO:root:Run Time Genetic Algorithm : 83.84157109260559
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 500
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.03210949897766113
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.030359983444213867
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.02445530891418457
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.026634931564331055
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.05476784706115723
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.02764272689819336
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.030146360397338867
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.030302047729492188
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.030191659927368164
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.025266647338867188
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.029697895050048828
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.029412508010864258
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 200 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 200 0.01
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Finished Genetic Alg: 1000 0.1 in 68.6345694065094
+
+INFO:root:Finished Genetic Alg: 1000 0.01 in 69.84809947013855
+
+INFO:root:Finished Genetic Alg: 1000 0.001 in 73.89096665382385
+
+INFO:root:Finished Genetic Alg: 1000 0.05 in 74.02190804481506
+
+INFO:root:Finished Genetic Alg: 1000 0.0001 in 118.95123791694641
+
+INFO:root:Finished MIMIC: 500 in 1535.1193091869354
+
+INFO:root:Finished MIMIC: 200 in 1594.21591091156
+
+INFO:root:Finished MIMIC: 400 in 1596.5170834064484
+
+INFO:root:Finished MIMIC: 300 in 1597.7311494350433
+
+INFO:root:Finished MIMIC: 1000 in 1602.031655073166
+
+INFO:root:Best Hill Climbing : (61.0, 0.03210949897766113, array([0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1,
+       1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0,
+       1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0,
+       0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1,
+       1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]), array([32., 32., 34., 34., 34., 36., 41., 41., 41., 41., 41., 41., 41.,
+       41., 41., 44., 44., 45., 45., 45., 45., 45., 45., 45., 45., 45.,
+       47., 47., 47., 47., 48., 48., 48., 51., 51., 51., 51., 51., 51.,
+       51., 51., 52., 52., 52., 52., 52., 52., 52., 52., 52., 32., 36.,
+       36., 36., 36., 38., 39., 39., 39., 40., 41., 41., 41., 41., 41.,
+       41., 41., 44., 46., 46., 46., 46., 46., 46., 46., 46., 46., 46.,
+       46., 46., 46., 46., 46., 46., 46., 46., 46., 46., 51., 55., 55.,
+       55., 55., 55., 55., 55., 55., 55., 57., 57., 32., 36., 40., 40.,
+       43., 46., 46., 46., 47., 47., 47., 47., 47., 47., 47., 47., 49.,
+       52., 52., 52., 52., 52., 52., 56., 58., 58., 58., 58., 58., 58.,
+       58., 58., 58., 58., 58., 58., 58., 58., 60., 60., 60., 60., 60.,
+       60., 60., 61., 61., 61., 61., 61., 37., 40., 40., 40., 40., 40.,
+       40., 42., 42., 44., 47., 47., 47., 47., 48., 48., 48., 49., 49.,
+       50., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53., 53.,
+       57., 57., 57., 57., 57., 57., 57., 57., 58., 58., 58., 58., 58.,
+       58., 58., 58., 58., 58., 36., 37., 41., 44., 44., 44., 44., 44.,
+       44., 44., 44., 44., 44., 44., 48., 48., 48., 52., 52., 55., 55.,
+       56., 56., 56., 56., 56., 57., 57., 57., 57., 57., 57., 57., 57.,
+       57., 57., 57., 57., 57., 57., 57., 57., 57., 57., 60., 60., 60.,
+       60., 60., 60., 32., 32., 37., 39., 39., 39., 39., 39., 39., 39.,
+       39., 39., 39., 39., 41., 41., 41., 41., 46., 46., 46., 46., 48.,
+       50., 50., 50., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51.,
+       51., 51., 51., 51., 51., 51., 51., 52., 52., 52., 52., 53., 55.,
+       55., 32., 37., 37., 37., 37., 39., 39., 39., 39., 39., 39., 39.,
+       39., 41., 41., 41., 41., 44., 44., 44., 44., 48., 48., 49., 49.,
+       49., 49., 49., 55., 55., 55., 55., 55., 55., 55., 55., 56., 56.,
+       56., 56., 56., 56., 56., 60., 60., 60., 60., 60., 60., 60., 32.,
+       34., 34., 34., 34., 37., 37., 38., 38., 38., 39., 40., 41., 41.,
+       41., 41., 41., 41., 41., 42., 42., 42., 42., 42., 44., 44., 44.,
+       47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47.,
+       47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 32., 32., 33.,
+       36., 38., 42., 42., 44., 44., 44., 46., 46., 46., 46., 46., 46.,
+       46., 50., 50., 50., 50., 50., 50., 50., 50., 50., 50., 51., 52.,
+       58., 58., 58., 58., 58., 58., 58., 58., 58., 58., 58., 59., 59.,
+       59., 59., 59., 59., 59., 59., 59., 59., 32., 33., 36., 36., 36.,
+       36., 36., 36., 37., 37., 39., 41., 44., 44., 44., 44., 47., 47.,
+       47., 47., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51., 51.,
+       51., 53., 53., 53., 53., 53., 53., 53., 53., 53., 57., 57., 57.,
+       57., 57., 57., 57., 57., 57., 36., 36., 38., 40., 40., 40., 40.,
+       40., 46., 46., 47., 47., 48., 48., 48., 48., 49., 49., 49., 49.,
+       49., 50., 50., 52., 52., 52., 54., 54., 54., 54., 54., 54., 55.,
+       55., 55., 56., 56., 56., 58., 58., 58., 58., 58., 58., 58., 58.,
+       58., 58., 58., 58.]), 10)
+INFO:root:Run Time Hill Climbing : 0.03210949897766113
+INFO:root:Best Simulated Annealing : (73.0, 0.02764272689819336, array([1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+       1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0,
+       1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+       0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0,
+       1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0]), array([32., 34., 33., 38., 37., 37., 41., 41., 41., 38., 38., 41., 43.,
+       43., 44., 44., 44., 44., 44., 44., 44., 44., 44., 47., 49., 49.,
+       49., 49., 49., 50., 50., 50., 49., 49., 47., 47., 47., 47., 47.,
+       47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47., 47.,
+       48., 48., 48., 48., 48., 49., 50., 50., 51., 50., 50., 50., 50.,
+       50., 50., 50., 50., 50., 51., 51., 51., 54., 54., 54., 54., 54.,
+       55., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56., 56.,
+       56., 56., 56., 56., 56., 57., 57., 57., 60., 60., 60., 60., 60.,
+       60., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62., 62.,
+       63., 63., 63., 63., 64., 64., 64., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66., 66.,
+       66., 66., 66., 66., 66., 66., 66., 66., 66., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69., 69.,
+       69., 69., 69., 69., 69., 69., 69., 69., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73., 73.,
+       73., 73., 73., 73., 73., 73.]), ('geometric', 0.99))
+INFO:root:Run Time Simulated Annealing : 0.03080708330327814
+INFO:root:Best MIMIC : (80.0, 1535.1193091869354, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0,
+       1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0,
+       1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1,
+       1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+       1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1]), array([54., 59., 59., 59., 65., 65., 73., 80., 80., 80., 80., 80., 80.,
+       80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80.,
+       80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80.,
+       80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80.,
+       80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80.,
+       80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80.,
+       80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80., 80.,
+       80., 80., 80., 80., 80., 80., 80., 80., 80., 80.]), 500)
+INFO:root:Run Time MIMIC : 1585.1230216026306
+INFO:root:Best Genetic Algorithm : (92.0, 118.95123791694641, array([1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0,
+       1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0,
+       1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1,
+       0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1,
+       0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0]), array([57., 60., 62., 64., 64., 64., 64., 64., 64., 64., 64., 64., 64.,
+       64., 64., 64., 64., 64., 64., 64., 64., 64., 64., 64., 64., 64.,
+       64., 64., 64., 64., 64., 64., 64., 64., 64., 64., 64., 64., 64.,
+       64., 64., 64., 64., 64., 64., 65., 65., 65., 65., 65., 65., 65.,
+       65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65.,
+       65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65.,
+       65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 65.,
+       65., 65., 65., 65., 65., 65., 65., 65., 65., 65., 67., 67., 68.,
+       68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68., 68.,
+       68., 68., 70., 70., 71., 72., 72., 72., 72., 74., 74., 74., 74.,
+       74., 74., 74., 74., 74., 74., 74., 74., 74., 74., 74., 74., 74.,
+       74., 74., 74., 74., 74., 74., 74., 74., 74., 76., 76., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 77.,
+       77., 77., 77., 77., 77., 77., 77., 77., 77., 77., 78., 78., 78.,
+       78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 78., 80., 81.,
+       81., 81., 81., 81., 81., 81., 81., 81., 82., 82., 82., 82., 82.,
+       82., 82., 82., 82., 82., 82., 82., 82., 82., 85., 85., 85., 85.,
+       85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85.,
+       85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85.,
+       85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85.,
+       85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85., 85.,
+       85., 85., 87., 87., 87., 88., 88., 88., 88., 88., 88., 88., 88.,
+       88., 88., 88., 88., 88., 88., 88., 88., 88., 88., 88., 88., 88.,
+       88., 88., 88., 88., 88., 88., 88., 88., 88., 88., 88., 88., 88.,
+       88., 88., 88., 91., 91., 91., 91., 91., 91., 91., 91., 91., 91.,
+       91., 91., 91., 91., 91., 91., 91., 91., 91., 91., 91., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92., 92.,
+       92., 92., 92., 92., 92., 92., 92., 92.]), (1000, 0.0001))
+INFO:root:Run Time Genetic Algorithm : 81.06935629844665
+INFO:root:Finished Hill Climbing: 10 in 0.03157615661621094
+
+INFO:root:Finished Hill Climbing: 10 in 0.031219482421875
+
+INFO:root:Finished Hill Climbing: 10 in 0.03155708312988281
+
+INFO:root:Finished Hill Climbing: 10 in 0.03139901161193848
+
+INFO:root:Finished Hill Climbing: 10 in 0.0313873291015625
+
+INFO:root:Finished Hill Climbing: 10 in 0.03090524673461914
+
+INFO:root:Finished Hill Climbing: 10 in 0.03158974647521973
+
+INFO:root:Finished Hill Climbing: 10 in 0.031040668487548828
+
+INFO:root:Finished Hill Climbing: 10 in 0.03182101249694824
+
+INFO:root:Finished Hill Climbing: 10 in 0.03095221519470215
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.016481876373291016
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.0272369384765625
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.02702164649963379
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.02465677261352539
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.027516841888427734
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.026616811752319336
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.027614116668701172
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.027445316314697266
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.02688002586364746
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.01814723014831543
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Could not compute Genetic Alg: 1000 0.0001
+
+INFO:root:Finished MIMIC: 500 in 3126.2262325286865
+
+INFO:root:Finished MIMIC: 500 in 3219.412081003189
+
+INFO:root:Finished MIMIC: 500 in 3292.231431722641
+
+INFO:root:Finished MIMIC: 500 in 3297.7383980751038
+
+INFO:root:Finished MIMIC: 500 in 3301.1721844673157
+
+INFO:root:Finished MIMIC: 500 in 3322.4567115306854
+
+INFO:root:Finished MIMIC: 500 in 3330.8082983493805
+
+INFO:root:Finished MIMIC: 500 in 3339.6572387218475
+
+INFO:root:Finished MIMIC: 500 in 3352.161785364151
+
+INFO:root:Finished MIMIC: 500 in 3352.7440028190613
+
+INFO:root:Num Runs : 10
+INFO:root:Randomized Hill Climbing Avg Fitness : 63.3
+INFO:root:Randomized Hill Climbing Var Fitness : 6.011111111111111
+INFO:root:Randomized Hill Climbing Avg Run Time : 0.03134479522705078
+INFO:root:Randomized Hill Climbing Var Run Time : 9.396056965569085e-08
+INFO:root:Simulated Annealing Avg Fitness : 70.0
+INFO:root:Simulated Annealing Var Fitness : 6.0
+INFO:root:Simulated Annealing Avg Run Time : 0.02496175765991211
+INFO:root:Simulated Annealing Var Run Time : 1.7112140196534003e-05
+INFO:root:Genetic Algorithm Avg Fitness : 0
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.1576857566833496
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.09150004386901855
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.024547815322875977
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.08643651008605957
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.10692453384399414
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.20427775382995605
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.09158802032470703
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.2642247676849365
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.28474926948547363
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.024686574935913086
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09136772155761719
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.26033902168273926
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 200 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.01
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Finished Genetic Alg: 1000 0.05 in 73.95671677589417
+
+INFO:root:Finished Genetic Alg: 1000 0.1 in 74.31015968322754
+
+INFO:root:Finished Genetic Alg: 1000 0.01 in 75.05943703651428
+
+INFO:root:Finished Genetic Alg: 1000 0.0001 in 125.1690125465393
+
+INFO:root:Finished Genetic Alg: 1000 0.001 in 134.6451461315155
+
+INFO:root:Could not compute MIMIC: 400index 300 is out of bounds for axis 0 with size 300
+
+INFO:root:
+
+Starting....
+
+
+INFO:root:init_state : [0 1 1 0 1 1 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+ 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 1 1 0 0
+ 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 1 1 0]
+INFO:root:self.max_iterations : 5000
+INFO:root:self.max_attempts : 100
+INFO:root:self.random_state : 1
+INFO:root:self.name : Modular Sums
+INFO:root:self.image_path : /home/amandapotts/Documents/git/randomized-optimization/main/analysis/
+INFO:root:self.population_sizes : [200, 300, 400, 500, 1000]
+INFO:root:self.mutation_probs : [0.0001, 0.001, 0.01, 0.05, 0.1]
+INFO:root:self.restarts : 10
+INFO:root:self.geom_decay : [0.9, 0.99, 0.999, 0.9999, 0.99999]
+INFO:root:self.arith_decay : [0.01, 0.001, 0.0001]
+INFO:root:self.exp_decay : [0.001, 0.005, 0.05]
+INFO:root:self.random_state : 1
+INFO:root:Problem : Modular Sums
+INFO:root:Finished Hill Climbing: 10 in 0.156174898147583
+
+INFO:root:Finished Simulated Annealing: exponential 0.001 in 0.09155058860778809
+
+INFO:root:Finished Simulated Annealing: exponential 0.005 in 0.025398969650268555
+
+INFO:root:Finished Simulated Annealing: exponential 0.05 in 0.08737921714782715
+
+INFO:root:Finished Simulated Annealing: geometric 0.9 in 0.16019225120544434
+
+INFO:root:Finished Simulated Annealing: geometric 0.99 in 0.19996428489685059
+
+INFO:root:Finished Simulated Annealing: geometric 0.999 in 0.09070062637329102
+
+INFO:root:Finished Simulated Annealing: geometric 0.9999 in 0.2638990879058838
+
+INFO:root:Finished Simulated Annealing: geometric 0.99999 in 0.2846970558166504
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.01 in 0.025308847427368164
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.001 in 0.09050512313842773
+
+INFO:root:Finished Simulated Annealing: arithmetic 0.0001 in 0.26021575927734375
+
+INFO:root:Could not compute Genetic Alg: 200 0.001
+
+INFO:root:Could not compute Genetic Alg: 200 0.0001
+
+INFO:root:Could not compute Genetic Alg: 200 0.05
+
+INFO:root:Could not compute Genetic Alg: 200 0.01
+
+INFO:root:Could not compute Genetic Alg: 200 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.001
+
+INFO:root:Could not compute Genetic Alg: 300 0.01
+
+INFO:root:Could not compute Genetic Alg: 300 0.0001
+
+INFO:root:Could not compute Genetic Alg: 300 0.1
+
+INFO:root:Could not compute Genetic Alg: 300 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.05
+
+INFO:root:Could not compute Genetic Alg: 400 0.01
+
+INFO:root:Could not compute Genetic Alg: 400 0.1
+
+INFO:root:Could not compute Genetic Alg: 400 0.001
+
+INFO:root:Could not compute Genetic Alg: 400 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.001
+
+INFO:root:Could not compute Genetic Alg: 500 0.01
+
+INFO:root:Could not compute Genetic Alg: 500 0.0001
+
+INFO:root:Could not compute Genetic Alg: 500 0.1
+
+INFO:root:Could not compute Genetic Alg: 500 0.05
+
+INFO:root:Finished Genetic Alg: 1000 0.05 in 68.00632882118225
+
+INFO:root:Finished Genetic Alg: 1000 0.1 in 68.63129663467407
+
+INFO:root:Finished Genetic Alg: 1000 0.001 in 70.85448265075684
+
+INFO:root:Finished Genetic Alg: 1000 0.01 in 71.58266711235046
+
