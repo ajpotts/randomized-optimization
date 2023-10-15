@@ -60,8 +60,6 @@ def main(argv=None):
     comparator3.run_analysis()
     time.sleep(5)
     
-    sys.exit(0)
-    
     problem9 = mlrose.DiscreteOpt(length=N, fitness_fn=fitness_cust9, maximize=True, max_val=2)
     comparator9 = RandomOptimizerComparator(problem9, init_state, "Magic Triplets", image_path=analysis_dir)
     comparator9.run_analysis()
