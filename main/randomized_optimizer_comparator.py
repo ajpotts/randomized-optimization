@@ -133,8 +133,6 @@ class RandomOptimizerComparator(object):
         logging.info('Best MIMIC : ' + str(best_mimic))
         logging.info('Run Time MIMIC : ' + str(mimic_time))
         self.print_fitness_curves(mimic_results, "MIMIC", "mimic_params")
-        
-     
    
         blue_patch = mpatches.Patch(color='blue', label="Simulated Annealing")
         green_patch = mpatches.Patch(color='green', label="Randomized Hill Climbing")
@@ -242,6 +240,33 @@ class RandomOptimizerComparator(object):
         plt.savefig(N_learning_curve_filename) 
         if(self.verbose):
             plt.show()
+            
+    def get_ga_stats(self):
+        N = 10
+        ga_results = []
+        population_size = 1000
+        mutation_prob = 0.05
+   
+        self.set_genetic_threads_fixed_param(N, ga_results, population_size, mutation_prob, 1)
+        self.execute_threads()
+        
+        logging.info('Num Runs : ' + str(N))
+        logging.info('Genetic Algorithm Avg Fitness : ' + str(self.get_avg_fitness(ga_results)))
+        logging.info('Genetic Algorithm Var Fitness : ' + str(self.get_var_fitness(ga_results)))        
+        logging.info('Genetic Algorithm Avg Run Time : ' + str(self.get_avg_run_time(ga_results)))  
+        logging.info('Genetic Algorithm Var Run Time : ' + str(self.get_var_run_time(ga_results))) 
+        
+        self.clear_plots()                                   
+        ax = plt.gca()
+        fig = plt.figure(figsize=(10, 5))
+        purple_patch = mpatches.Patch(color='purple', label="Genetic Algorithm")
+        plt.legend(handles=[purple_patch], loc="lower right") 
+        plt.xlabel("Iterations")
+        plt.ylabel("Fitness Score")
+        plt.title("Fitness by Number of Iterations for Each Algorithm")
+        N_learning_curve_filename = self.image_path + self.name + "_performance_multiple.png"
+        self.plot_curves(ga_results, "purple")
+        plt.show()
         
     def plot_curves(self, results, color):
         
@@ -423,7 +448,7 @@ class RandomOptimizerComparator(object):
         return self.get_best_result(results)
 
     def get_genetic_run(self, pop, prob, results, random_state=1):
-        
+      
         # pop_size (int, default: 200) – Size of population to be used in genetic algorithm.
         # mutation_prob (float, default: 0.1) – Probability of a mutation at each element of the state vector during reproduction, expressed as a value between 0 and 1.
         # max_attempts (int, default: 10) – Maximum number of attempts to find a better state at each step.
