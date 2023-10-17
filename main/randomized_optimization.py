@@ -58,55 +58,69 @@ def main(argv=None):
 
     one_max_problem = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=mlrose_hiive.OneMax(), maximize=True, max_val=2)
     one_max_comparator = RandomOptimizerComparator(one_max_problem, init_state, "one_max")
-    one_max_comparator.run_analysis()
+    one_max_comparator.get_validation_curves()
+    # one_max_comparator.run_analysis()
+    # time.sleep(5)    
+    sys.exit(0)
 
     flip_flop_problem = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=mlrose_hiive.FlipFlop(), maximize=True, max_val=2)
     flip_flop_comparator = RandomOptimizerComparator(flip_flop_problem, init_state, "flip_flop")
     flip_flop_comparator.run_analysis()
-        
+    time.sleep(5)
+            
     cts_peaks_problem = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=mlrose_hiive.ContinuousPeaks(t_pct=0.15), maximize=True, max_val=2)
     cts_peaks_comparator = RandomOptimizerComparator(cts_peaks_problem, init_state, "Continuous Peaks")
     cts_peaks_comparator.run_analysis()        
-
+    time.sleep(5)
+    
     queens_problem = mlrose_hiive.DiscreteOpt(length=8, fitness_fn=fitness_cust_queens_max, maximize=True, max_val=8) 
     queens_comparator = RandomOptimizerComparator(queens_problem, [1, 3, 2, 4, 3, 5, 4, 6], "8 Queens")
     queens_comparator.run_analysis()    
-    
+    time.sleep(5)
+        
     problem1 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust1, maximize=True, max_val=2)
     comparator1 = RandomOptimizerComparator(problem1, init_state, "Problem1")
     comparator1.run_analysis()    
-    
+    time.sleep(5)
+        
     problem2 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust2, maximize=True, max_val=2)
     comparator2 = RandomOptimizerComparator(problem2, init_state, "Palindromes")
     comparator2.run_analysis()
-    
+    time.sleep(5)
+        
     problem4 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust4, maximize=True, max_val=2)
     comparator4 = RandomOptimizerComparator(problem4, init_state, "Average Run Length")
     comparator4.run_analysis()
-    
+    time.sleep(5)
+        
     problem5 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust5, maximize=True, max_val=2)
     comparator5 = RandomOptimizerComparator(problem5, init_state, "Problem 5")
     comparator5.run_analysis()
-    
+    time.sleep(5)
+        
     key = get_key()
     print(key[0:50])
 
     problem6 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust6, maximize=True, max_val=2)
     comparator6 = RandomOptimizerComparator(problem6, init_state, "Key Guessing")
     comparator6.run_analysis()
-    
+    time.sleep(5)
+        
     problem7 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust7, maximize=True, max_val=2)
     comparator7 = RandomOptimizerComparator(problem7, init_state, "Random Weights")
     comparator7.run_analysis()
-    
+    time.sleep(5)
+        
     problem8 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust8, maximize=True, max_val=2)
     comparator8 = RandomOptimizerComparator(problem8, init_state, "Unique Integers")
     comparator8.run_analysis()
-
+    time.sleep(5)
+    
     problem10 = mlrose_hiive.DiscreteOpt(length=N, fitness_fn=fitness_cust10, maximize=True, max_val=2)
     comparator10 = RandomOptimizerComparator(problem10, init_state, "Two Peaks")
     comparator10.run_analysis()  
-    
+    time.sleep(5)
+        
         # weights = [10, 5, 2, 8, 15]
     # values = [1, 2, 3, 4, 5]
     # max_weight_pct = 0.6
